@@ -62,11 +62,12 @@ img {
 }
 .nav-menu {
         display: flex;
-            width: 1440px;
-            height: 72px;
-            justify-content: center;
-            align-items: center;
-            flex-shrink: 0;
+        align-items: center;
+        gap: 40px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        padding: 24px 0;
+        display: block;
 }
 
                 .nav-menu-item {
