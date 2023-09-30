@@ -270,8 +270,7 @@ img {
                                             background: #FFF;
                                             flex-wrap: wrap;
                                             row-gap: 48px;
-                                            width: calc(100%-48px)/3;
-                                            width: calc((100% - 48px) / 3);
+                                            width: calc((100% - 48px) /3);
                                         }
                     
                                         .content-portfolio {
@@ -325,11 +324,6 @@ img {
                         max-width: 264px;
                         margin-bottom: 16px;
                         display: inline-block;
-                    }
-                
-                    .footer-section {
-                        background-color: #2E2F42;
-                        padding: 101px;
                     }
                 
                     .footer-logo-span {
