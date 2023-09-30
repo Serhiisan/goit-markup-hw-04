@@ -25,7 +25,7 @@ button {
 img {
     display: block;
 }
-.container {
+.container-main {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -55,19 +55,27 @@ img {
         color: #2E2F42;
  }
                 
-                .nav-menu-logo:hover,
-                .nav-menu-logo:focus {
-                    color: #404BBF;
-                }
-                
+.nav-menu-logo:hover,
+.nav-menu-logo:focus {
+         color: #404BBF;
+}
+.nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        padding: 24px 0;
+        display: block;
+}
+
                 .nav-menu-item {
-                    color: #2E2F42;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 1.5;
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
                     letter-spacing: 0.02em;
                     text-decoration: none;
-                     padding: 24px 0;
+                    padding: 24px 0;
                     display: block;
                 }
                 
@@ -81,6 +89,9 @@ img {
                     display: flex;
                      gap: 35px;
                     margin-left: auto;
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: auto;
                 }
                 
                 .contacts-item {
@@ -89,26 +100,18 @@ img {
                     font-weight: 400;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
-                    text-decoration: none;
-                     display: flex;
-                    flex-direction: row;
-                    margin-left: auto;
+                    text-decoration: none; 
                 }
                 
                 .contacts-item:hover,
                 .nav-menu-item:focus {
                     color: #404bbf;
                 }
-                
-                    .contacts-item:hover,
-                    .contacts-item:focus {
-                        color: #404bbf;
-                    }
-                
-                    .section-main {
-                        background-color: #2E2F42;
-                        color: #FFF;
-                        padding: 188px 0;
+            
+                .section-main {
+                    background-color: #2E2F42;
+                    color: #FFF;
+                    padding: 188px 0;
                     }
                 
                     .main-title {
@@ -255,10 +258,14 @@ img {
                             row-gap: 48px;
                             width: calc(100%-48px)/3;
                             width: calc((100% - 48px) / 3);
+                            display: flex
+                            column-gap: 24px;
+                            row-gap: 48px;
                         }
 
                     .content-portfolio {
-                        padding: 32px 0;}
+                        padding: 32px 0;
+                    }
 
                     .portfolio-title {
                         color: #2E2F42;
@@ -292,6 +299,7 @@ img {
                 
                     .footer {
                         background-color: #2E2F42;
+                        padding: 100px 0 100px
                         
                     }
                 
@@ -303,7 +311,7 @@ img {
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
                         max-width: 264px;
-                        margin-bottom: 18px;
+                        margin-bottom: 16px;
                         display: inline-block;
                     }
                 
