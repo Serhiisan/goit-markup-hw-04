@@ -132,7 +132,7 @@ img {
     color: #404bbf;
 }
 
-.section-main {
+.section-main 
     .section {
         background-color: #2E2F42;
         color: #FFF;
@@ -372,3 +372,4 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
+    }
