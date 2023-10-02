@@ -42,7 +42,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px; 
     }
 
 .nav-menu-logo {
@@ -213,7 +212,7 @@ img {
                                             padding: 120px 0;
                                         }
                     
-                                        .portfolio-title {
+                                        .team-title {
                                             color: #2E2F42;
                                             text-align: center;
                                             font-family: Roboto;
@@ -230,18 +229,18 @@ img {
                                             gap: 24px;
                                         }
                     
-                                        .portfolio-list {
+                                        .team-list {
                                             background-color: #FFF;
                                             width: calc(100%-72px)/4;
                                             width: calc((100% - 72px) / 4);
                                             border-radius: 0px 0px 4px 4px;
                                         }
                     
-                                        .content-portfolio{
+                                        .content-team {
                                             padding: 32px 0;
                                         }
                     
-                                        .portfolio-sub-title {
+                                        .team-sub-title {
                                             color: #2E2F42;
                                             text-align: center;
                                             font-family: Roboto;
@@ -253,7 +252,7 @@ img {
                                             margin-bottom: 8px;
                                         }
                     
-                                        .portfolio-text {
+                                        .team-text {
                                             color: #434455;
                                             text-align: center;
                                             font-family: Roboto;
