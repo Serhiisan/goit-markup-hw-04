@@ -135,13 +135,11 @@ img {
     color: #404bbf;
 }
 
-.section-main {
-    .section {
+.section{
         background-color: #2E2F42;
         color: #FFF;
         padding-bottom: 188px;
     }
-}
     .header-description {
         padding: 120px 0 120px
     }
