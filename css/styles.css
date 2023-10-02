@@ -63,10 +63,6 @@ img {
 .nav-menu-logo:focus {
          color: #404BBF;
 }
-.container container-header {
-    display: flex;
-    margin-right: 0
-}
 
 .nav-menu {
         display: flex;
@@ -130,7 +126,7 @@ img {
                     padding-bottom: 188px;
                     }
                 .header-description {
-                    padding: 120px 0 120px
+                    padding: 188px 0 188px
 
                 }
                     .main-title {
