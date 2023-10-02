@@ -69,9 +69,13 @@ img {
             gap: 40px;
             letter-spacing: 0.02em;
             text-decoration: none;
-            padding: 24px 0;
-            
-}
+            padding: 24px 0;   
+            }
+            .nav-menu-list {
+                display: flex;
+                    gap: 40px;
+            }
+
 
                 .nav-menu-item {
                     display: inline-flex;
