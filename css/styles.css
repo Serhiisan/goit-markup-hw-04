@@ -63,6 +63,11 @@ img {
 .nav-menu-logo:focus {
          color: #404BBF;
 }
+.container container-header {
+    display: flex;
+    margin-right: 0
+}
+
 .nav-menu {
         display: flex;
             align-items: center;
@@ -102,6 +107,7 @@ img {
                     display: flex;
                     flex-direction: row;
                     margin-left: auto;
+                    margin-right: 40px
                 }
                 
                 .contacts-item {
