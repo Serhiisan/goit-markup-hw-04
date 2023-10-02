@@ -213,7 +213,7 @@ img {
                                             padding: 120px 0;
                                         }
                     
-                                        .team-title {
+                                        .portfolio-title {
                                             color: #2E2F42;
                                             text-align: center;
                                             font-family: Roboto;
@@ -230,18 +230,18 @@ img {
                                             gap: 24px;
                                         }
                     
-                                        .team-list {
+                                        .portfolio-list {
                                             background-color: #FFF;
                                             width: calc(100%-72px)/4;
                                             width: calc((100% - 72px) / 4);
                                             border-radius: 0px 0px 4px 4px;
                                         }
                     
-                                        .content-team {
+                                        .content-portfolio{
                                             padding: 32px 0;
                                         }
                     
-                                        .team-sub-title {
+                                        .portfolio-sub-title {
                                             color: #2E2F42;
                                             text-align: center;
                                             font-family: Roboto;
@@ -253,7 +253,7 @@ img {
                                             margin-bottom: 8px;
                                         }
                     
-                                        .team-text {
+                                        .portfolio-text {
                                             color: #434455;
                                             text-align: center;
                                             font-family: Roboto;
