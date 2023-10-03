@@ -98,13 +98,13 @@ img {
                 .contacts {
                     font-style: normal;
                     display: flex;
-                    gap: 40px;
+                    gap: 35px;
                     margin-left: auto;
                 }
                 .contacts-list {
                     font-style: normal;
                     display: flex;
-                     gap: 40px;
+                     gap: 35px;
                     margin-left: auto;
                     display: flex;
                     flex-direction: row;
@@ -118,6 +118,9 @@ img {
                     line-height: 1.5;
                     letter-spacing: 0.02em;
                     text-decoration: none; 
+                    gap: 40px;
+                    margin-right: 40px;
+                    margin-right: 0
                 }
                 
                 .contacts-item:hover,
