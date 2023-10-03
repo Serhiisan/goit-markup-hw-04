@@ -30,7 +30,7 @@ img {
 }
 .container {
     width: 1158px;
-    display: flex;
+
     margin: 0 auto;
    
 }
@@ -38,7 +38,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
  .container-header {
-   
+    display: flex;
     justify-content: center;
     align-items: center;
         padding-right: 15px;
