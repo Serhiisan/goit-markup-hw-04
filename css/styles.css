@@ -29,17 +29,20 @@ img {
     display: block;
 }
 .container {
-    max-width: 1158px;
-    margin: 0 auto;   
+    width: 1158px;
+    display: flex;
+    margin: 0 auto;
+   
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
  .container-header {
-    display: flex;
+   
     justify-content: center;
     align-items: center;
-    padding: 0 15px 0 15px;
+        padding-right: 15px;
+            padding-left: 15px;
     }
 
 .nav-menu-logo {
