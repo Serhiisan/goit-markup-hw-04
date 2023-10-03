@@ -32,7 +32,13 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
+
+.container container-header {
+    padding: 0 15px 0 15px;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -72,11 +78,11 @@ img {
             text-decoration: none;
             padding: 24px 0;   
             }
+
             .nav-menu-list {
                 display: flex;
                     gap: 40px;
             }
-
 
                 .nav-menu-item {
                     display: inline-flex;
