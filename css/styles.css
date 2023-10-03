@@ -32,7 +32,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding: 0 15px 0 15px;
 }
 
 .container container-header {
@@ -104,13 +103,13 @@ img {
                 .contacts {
                     font-style: normal;
                     display: flex;
-                    gap: 35px;
+                    gap: 40px;
                     margin-left: auto;
                 }
                 .contacts-list {
                     font-style: normal;
                     display: flex;
-                     gap: 35px;
+                     gap: 40px;
                     margin-left: auto;
                     display: flex;
                     flex-direction: row;
