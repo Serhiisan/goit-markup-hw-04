@@ -184,13 +184,15 @@ img {
                     padding: 120px 0 120px
 
                 }
-                                   .order-img {
+
+                
+                .order-img {
                                        padding: 188px 0;
                                        max-width: 1440px;
                                        margin: 0 auto;
                                        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                                                rgba(46, 47, 66, 0.7)),
-                                           url('../images/hero\ image.jpg');
+                                           url(../images/hero\ image.jpg);
                                        background-repeat: no-repeat;
                                        background-position: center;
                                        background-size: cover;
