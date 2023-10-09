@@ -51,17 +51,7 @@ img {
     padding: 120px 0;
 }
 
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 117%;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    color: var(--iris);
-    margin-right: 76px;
-}
+
 
 .header-logo {
     color: var(--navy);
@@ -90,6 +80,7 @@ img {
             letter-spacing: 0.03em;
             text-transform: uppercase;
             text-decoration: none;
+            color: var(--iris);
             margin-right: 76px;
 }    
 .nav-menu-span {
@@ -234,7 +225,14 @@ img {
                                        clip: rect(0 0 0 0);
                                        overflow: hidden;
                                    }
-                
+                                   
+                                   /* .main section {
+                                    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                                        url(../images/img-name.jpeg)
+                                   } */
+
+                                   
+                                                                   
                                    .main-items {
                                        display: flex;
                                        gap: 24px;
